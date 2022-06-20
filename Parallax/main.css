@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url(MuseoSans.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #E5E5E5;
+}
+
+#main {
+    overflow: hidden;
+    
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.circle {
+    background: #6933DC;
+    border-radius: 50%;
+}
+
+#circle1 {
+    position: absolute;
+    width: 946px;
+    height: 946px;
+    left: -175px;
+    top: -541px;
+}
+
+#sсene1 {
+    position: absolute;
+    right: 143.63px;
+    top: 145.57px;
+}
+
+#sсene1 .circle {
+    width: 52.88px;
+    height: 52.88px;
+}
+
+#sсene2 {
+    position: absolute;
+    left: 447px;
+    top: 479px;
+}
+
+#sсene2 .circle {
+    width: 83px;
+    height: 83px;
+}
+
+#sсene3 {
+    position: absolute;
+    left: -148px;
+    top: 635px;
+}
+
+#sсene3 .circle {
+    width: 346px;
+    height: 346px;
+    background: rgba(105, 51, 220, 0.06);
+}
+
+#sсene4 {
+    position: absolute;
+    right: -263px;
+    top: 307px;
+}
+
+#sсene4 .circle {
+    width: 674px;
+    height: 674px;
+    background: rgba(105, 51, 220, 0.05);
+}
+
+#sсene5 {
+    position: absolute;
+    right: 100px;
+    top: 784.4px;
+}
+
+#sсene5 .circle {
+    width: 119.44px;
+    height: 119.44px;
+}
+
+#sсene6 {
+    position: absolute;
+    right: 257.7px;
+    top: 1082.79px;
+}
+
+#sсene6 .circle {
+    width: 53.5px;
+    height: 53.5px;
+}
+
+#sсene7 {
+    position: absolute;
+    right: 153px;
+    top: 1168px;
+}
+
+#sсene7 .circle {
+    width: 276px;
+    height: 276px;
+    background: rgba(105, 51, 220, 0.05);
+}
+
+#sсene8 {
+    position: absolute;
+    right: -71px;
+    top: 1303px;
+}
+
+#sсene8 .circle {
+    width: 168px;
+    height: 168px;
+}
+
+#sсene9 {
+    position: absolute;
+    left: -103px;
+    top: 1444px;
+}
+
+#sсene9 .circle {
+    width: 206px;
+    height: 206px;
+}
+
+#sсene10 {
+    position: absolute;
+    right: -110px;
+    top: 1615px;
+}
+
+#sсene10 .circle {
+    width: 220px;
+    height: 220px;
+    background: rgba(105, 51, 220, 0.05);
+}
+
+#sсene11 {
+    position: absolute;
+    left: -534px;
+    top: 1363px;
+}
+
+#sсene11 .circle {
+    width: 1450px;
+    height: 1450px;
+    background: rgba(105, 51, 220, 0.04)
+}
+
+#sсene12 {
+    position: absolute;
+    left: 304px;
+    top: 1898px;
+}
+
+#sсene12 .circle {
+    width: 108px;
+    height: 108px;
+}
+
+#sсene13 {
+    position: absolute;
+    left: 668px;
+    top: 1952px;
+}
+
+#sсene13 .circle {
+    width: 66px;
+    height: 66px;
+}
+
+#title {
+
+font-size: 100px;
+line-height: 120px;
+color: #FFFFFF;
+z-index: 1;
+position: relative;
+padding-top: 5px;
+
+
+}
+
+#head-text {
+    font-size: 150px;
+    line-height: 180px;
+    color: #000000;
+    z-index: 1;
+    position: relative;
+    margin-top: 282px;
+    left: 400px;
+}
+
+#head-text-sub {
+    font-size: 150px;
+    line-height: 180px;
+    color: #6933DC;
+    z-index: 1;
+    position: relative;
+    margin-top: 25px;
+    left: -200px;
+}
+
+#image {
+    margin: 334px auto 0 auto;
+    max-width: 626px;
+    height: 417px;
+    border-radius: 30px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#come-on {
+    color: #FFFFFF;
+    z-index: 1;
+    position: absolute;
+    margin-top: 290px;
+    top: 418px;
+    left: -287px;
+    width: 1200px;
+    text-align: center;
+    font-size: 150px;
+    line-height: 180px;
+}
+
+#come-on-black {
+    margin-top: 290px;
+    text-align: center;
+    font-size: 150px;
+    line-height: 180px;
+    color: #000000;
+    position: relative;
+}
+
+#last-image {
+    margin-top: 54px;
+}
+
+#last-image img {
+    max-width: 100%;
+    z-index: 1;
+    position: relative;
+}
